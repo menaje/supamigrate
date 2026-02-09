@@ -1,4 +1,35 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+
+# Environment variables
 .env
-*.sql
+
+# Generated SQL files
+migration-*.sql
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Agent files
+CLAUDE.md
+.mcp.json
+.wpmrc.json
+.gemini/
+.claude/
